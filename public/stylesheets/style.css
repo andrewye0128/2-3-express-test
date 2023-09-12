@@ -1,0 +1,42 @@
+/* css reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style-type: none;
+}
+
+.navbar-container {
+  margin-bottom: 15px;
+  padding-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.other-page {
+  width: 40%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+a {
+  display: block;
+  width: 100%;
+  padding: 8px 15px;
+  text-align: center;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #BFBFBF;
+}
+
+a:focus {
+  background-color: gray;
+}
+

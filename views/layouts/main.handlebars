@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>2-3 Express Test </title>
+  <link rel="stylesheet" href="/stylesheets/bootstrap.css">
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+<body>
+  <!-- navigation -->
+  <nav class="container navbar-container">
+    <li class="home-page">
+      <a class="navbar-brand" href="http://localhost:3000">回到首頁</a>
+    </li>
+    <div class="other-page">
+      <li class="nav-item"><a href="http://localhost:3000/about">About</a></li>
+      <li class="nav-item"><a href="http://localhost:3000/portfolio">Portfolio</a></li>
+      <li class="nav-item"><a href="http://localhost:3000/contact">Contact</a></li>
+    </div>
+  </nav>
+  
+  <!-- partial templates will replace the part of "body" here -->
+  <div class="container other-container">
+    {{{ body }}}
+  </div>
+
+  <script src="/javascripts/bootstrap.js"></script>
+  <script src="/javascripts/popper.js"></script>
+</body>
+</html>
